@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: block;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    background-color: #ede7f6;
+    font-family: "Roboto",Arial,sans-serif;
+    height: 200vh;
+}
+.box{
+    border-top: solid 10px slateblue;
+    max-width: 700px;
+    margin: auto;
+    height: 250px;
+    border-radius: 8px;
+    background-color:#fff;
+    margin-top: 20px;
+   
+}
+
+h1{
+    font-size: 35px;
+    margin: 1px 15px 15px 5px;
+    padding: 20px;
+}
+h6{
+    font-size: 15px;
+    margin: 20px 10px 20px 20px;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.required{
+    margin-top: 10px;
+    color: red;
+    margin: 20px 10px 20px 20px;
+}
+form{
+    max-width: 700px;
+    margin: auto;
+    height: 150px;
+    border-radius: 8px;
+    background-color:#fff;
+}
+label{
+    display: flex;
+    position: relative;
+    top: 20%;
+    left: 20px;
+}
+
+input{
+    display: flex;
+    position: relative;
+    top: 30%;
+    left: 20px;
+    width: 300px;
+    border-color: rgb(194, 180, 180);
+    border-top: #fff;
+    border-left: #fff;
+    border-right: #fff;
+    
+    
+}
+span{
+    color: red;
+    margin-left: 5px;
+}
+.kin{
+    font-size: 15px;
+}
+.kin label{
+    display: flex;
+    position: relative;
+    top: 15px;
+}
+.kin input{
+    display: flex;
+    position: relative;
+    top: 10px;
+}
+.radio{
+  
+    max-width: 700px;
+    margin: auto;
+    height: 200px;
+    border-radius: 8px;
+    background-color:#fff;
+    margin-top: 10px;
+}
+.radio input{
+    display: flex;
+    position: relative;
+    margin: 20px 0px 5px -50px;
+    max-width: 100px;
+    top: 10px;    
+}
+.radio span{
+    color: #000;
+    display: flex;
+    position: relative;
+    max-width: 50px;
+    margin: 20px 0px 5px -10px;
+    top: 5px;
+}
+.faint p{
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+    color: darkgray;
+
+    
+}
+.line-1{
+    display: flex;
+    position: relative;
+    left: 10%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: green;
+    height: 10px;
+    width: 250px;
+    border-radius: 12px;
+}
+.line-1 p {
+    display: flex;
+    position: relative;
+    top: -9px;
+    color: grey;
+    font-size: 15px;
+    left: 180px;
+}
+button{
+    max-width: 700px;
+    margin: auto;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: -25px;
+    display: flex;
+    position: relative;
+    top: 30%;
+    left: -280px;
+    width: 100px;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.page p {
+    display: flex;
+    position: relative;
+    top: 10px;
+    color: grey;
+    font-size: 15px;
+    
+  
+}
